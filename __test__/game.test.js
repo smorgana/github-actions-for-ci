@@ -21,7 +21,7 @@ describe('Game', () => {
 
   describe('Game', () => {
     it('Initializes with two players', async () => {
-      expect(game.p1).toBe('Salem')
+      expect(game.p1).toBe('foo')
       expect(game.p2).toBe('Nate')
     })
 
